@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5082591f-a751-4564-a11e-a72b1c52b6f6" name="Default" comment="My home work">
+    <list default="true" id="5082591f-a751-4564-a11e-a72b1c52b6f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyFerstAppHome.iws" />
@@ -674,7 +674,13 @@
       <option name="project" value="LOCAL" />
       <updated>1549310194336</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="My home work">
+      <created>1549310230635</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1549310230635</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
