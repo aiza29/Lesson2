@@ -3,27 +3,93 @@ package Lesson4.Home1;
 /**
  * Created by Anna on 16.01.2019.
  */
-public class Astronaut {
-    public static void main(String[] args) {
-        String[] crew = {"Komandir", "Pilot", "Ingener", "Second Komandir", "Second Pilot", "Second Ingener"};
-        int[] growth = {168, 174, 178, 167, 175, 168};
-        int[] growthSitting = {82, 86, 84, 80, 88, 82};
-        int[] weight = {67, 63, 74, 62, 75, 65};
-        int[] hip = {32, 34, 28, 36, 35, 31};
-        int[] shoulder = {46, 48, 44, 42, 46, 40};
-        int[] chest = {46, 48, 44, 42, 46, 40};
-        int[] leg = {26, 28, 26, 28, 26, 28};
+ class Astronaut {
 
-        for(int i=0; i <  crew.length; i++) {
-            System.out.println(crew[i] + " корабля, мерки для изготовления скафандра 'Сокол КВ-2'и посадочных кресел 'Союз-МС':");
-            System.out.println("Рост в положении стоя - " + growth[i] + " см.");
-            System.out.println("Рост в положении сидя - "+ growthSitting[i] + " см.");
-            System.out.println("Вес - " + weight[i]+" кг.");
-            System.out.println("Ширина бедер в положении сидя - " + hip[i]+" см.");
-            System.out.println("Поперечный размер плечевой области - " + shoulder[i]+" см.");
-            System.out.println("Обхват груди - " + chest[i]+" см.");
-            System.out.println("Длина ступни - " + leg[i]+" см."+ "\n\n");
-        }
+    private String position;
+    private String name;
+    private String gender;
+    private String nationality;
+    private String education;
+    private int growth;
+    private int weght;
+    private int age;
+
+    public int getWeght() {
+        return weght;
+    }
+
+    public void setWeght(int weght) {
+        this.weght = weght;
+    }
+
+    public int getGrowth() {
+        return growth;
+    }
+
+    public void setGrowth(int growth) {
+        this.growth = growth;
+    }
+
+    public String getEducation() {
+        return education;
+    }
+
+    public void setEducation(String education) {
+        this.education = education;
+    }
+
+    public String getNationality() {
+        return nationality;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    @Override
+    public String toString() {
+        return "Астронавт{" +
+                "должность='" + position + '\'' +
+                ", имя='" + name + '\'' +
+                ", пол='" + gender + '\'' +
+                ", национальность='" + nationality + '\'' +
+                ", образование='" + education + '\'' +
+                ", рост=" + growth +
+                ", вес=" + weght +
+                ", возраст=" + age +
+                '}';
     }
 
 }
