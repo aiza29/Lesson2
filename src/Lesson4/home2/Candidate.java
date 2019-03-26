@@ -1,4 +1,4 @@
-package Lesson4.Home2;
+package lesson4.home2;
 
 /**
  * Created by Anna on 18.02.2019.

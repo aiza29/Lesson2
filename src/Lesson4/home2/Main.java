@@ -1,4 +1,4 @@
-package Lesson4.Home2;
+package lesson4.home2;
 
 /**
  * Created by Anna on 18.02.2019.
@@ -31,26 +31,26 @@ public class Main {
         Candidate3.setGrowth(175);
         Candidate3.setAge(32);
 
-        if (Candidate1.equals(true)){
-            System.out.println("кандидат 1 подходит "+ Candidate1);
+        if (validation(Candidate1)){
+            System.out.println("кандидат 1 подходит ");
         }
         else {
-            System.out.println("кандидат 1 не подходит "+ Candidate1);
+            System.out.println("кандидат 1 не подходит ");
         }
 
-        if (Candidate2.equals(true)) {
-            System.out.println("кандидат 2 подходит "+ Candidate2);
+        if (validation(Candidate2)) {
+            System.out.println("кандидат 2 подходит ");
         }
         else {
-            System.out.println("кандидат 2 не подходит "+ Candidate2);
+            System.out.println("кандидат 2 не подходит ");
         }
 
 
-        if (Candidate3.equals(true)) {
-            System.out.println("кандидат 3 подходит "+ Candidate3);
+        if (validation(Candidate3)) {
+            System.out.println("кандидат 3 подходит ");
         }
         else {
-            System.out.println("кандидат 3 не подходит "+ Candidate3);
+            System.out.println("кандидат 3 не подходит ");
         }
 
     }
@@ -64,7 +64,6 @@ public class Main {
             if (candidate.getGrowth() <= 180) ;
             if (candidate.getAge() <= 40) ;
         }
-
         return false;
     }
 }
